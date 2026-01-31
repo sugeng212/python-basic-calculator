@@ -1,0 +1,9 @@
+# Program Kalkulator Sederhana
+def tambah(a, b):
+    return a + b
+
+if __name__ == "__main__":
+    print("Selamat datang di Kalkulator Sederhana")
+    x = 10
+    y = 5
+    print(f"Hasil dari {x} + {y} adalah {tambah(x, y)}")
